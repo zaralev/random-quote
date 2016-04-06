@@ -1,0 +1,121 @@
+body {
+	background-color: #039;
+	transition: all 1s;
+}
+
+#twitter {
+	margin: 0.8em auto -1em auto;
+	text-align:right;
+}
+
+
+h1 {
+	text-align:left;
+	margin-top: -0.5em;
+	margin-bottom: -0.7em;
+	transition: all 1s;
+}
+
+#container {
+	background-color: #fff;
+	width: 60%;
+	margin: 2em auto auto auto;
+	padding: 2em;
+	border-radius: 25px;
+}
+
+#quote {
+	font-family: 'Josefin Sans', serif;
+	font-size:1.3em;
+	transition: all 1s;
+}
+
+#title {
+	font-family: 'Lora', serif;
+	text-align:right;
+	margin-top: 0.5em;
+	font-size: 0.9em;
+	transition: all 1s;
+}
+
+button {
+  border-radius: 0.3em;
+  background-color: #3366EE;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 2em;
+  padding: 0 0 0.2em;
+  width: 100%;
+  transition: all 1s;
+  cursor: pointer;
+  margin: 0.7em auto 0 auto;
+}
+
+button span {
+  cursor: pointer;
+	font-family: 'Lora',serif;
+  position: relative;
+  transition: all 1s;
+}
+
+button:hover {
+	  background-color: #1144AA;
+}
+
+@media only screen and (min-width: 600px) {
+	h1 {
+	text-align:left;
+	margin-top: -0.5em;
+	margin-bottom: -1em;
+	}
+
+	#quote {
+		font-size:1.5em;
+	}
+	#title {
+		font-size: 1em;
+	}
+
+	body {
+		background-color: #004444;
+	}
+
+	button {
+		font-size: 3em;
+  		background-color: #44CC88;
+	}
+
+	button:hover {
+		  background-color: #11AA66;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	body {
+		background-color: #500;
+	}
+
+	button {
+  		background-color: #711;
+	}
+
+	button:hover {
+		  background-color: #600;
+	}
+}
+
+
+@media only screen and (min-width: 1000px) {
+	body {
+		background-color: #3C0E99;
+	}
+
+	button {
+  		background-color: #7F45DF;
+	}
+
+	button:hover {
+		  background-color: #5C23CF;
+	}
+}
